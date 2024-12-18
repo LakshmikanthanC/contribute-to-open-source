@@ -39,7 +39,7 @@ exports.divide = (x, y) => {
   return x / y;
 };
 
-// Square function that squares a single number
+
 exports.square = (x) => {
   if (typeof x !== 'number') {
     throw new TypeError(`${x} is not a number`);
